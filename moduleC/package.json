@@ -1,0 +1,16 @@
+{
+  "name": "modulec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moduleA": "file:../moduleA",
+    "moduleB": "file:../moduleB",
+    "ramda": "^0.27.1"
+  }
+}
